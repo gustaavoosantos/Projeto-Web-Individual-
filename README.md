@@ -1,6 +1,9 @@
 **Projeto Individual - Kick**
 
-**Tema Selecionado: Música. Os melhores Bateristas do Mundo.**
+**Tema Selecionado: Música. Os melhores Bateristas do Mundo**
+
+**Nome do site: "Drummer Universe"**
+
 
 O tema escolhido foi sobre os melhores bateristas do mundo. E com isso decidi trazer a biografia de cada uma deles, contando um pouco de sua trajetória no mundo da música. Foi um site bem simples, mas acredito que está dentro daquilo que eu busquei fazer.
 
