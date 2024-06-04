@@ -1,4 +1,4 @@
-**Projeto Individual - Kick**
+**Projeto Web Individual - Kick**
 
 **Tema Selecionado: Música. Os melhores Bateristas do Mundo**
 
