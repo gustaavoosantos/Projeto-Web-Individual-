@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #ffffff00;
+    font-family: "Be Vietnam Pro"sans-serif;
+    background-image: url(imagens/Background\ img2.jpg);
+    background-position: center;
+    min-height: 100vw;
+    background-size: cover;
+}
+
+#header {
+    height: 200px;
+    background-color: #ffffff00;
+    width: 100%;
+   
+    
+}
+
+.menu{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+  
+}
+
+.menu li a {
+    margin-right: 8px;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    
+}
+#box1 {
+    height: 800px;
+    width: 350px;
+    background-color: #ffffff00;
+    float: left;
+ 
+      
+}
+#box2 {
+    height: 1690px;
+    width: 93%;
+    background-color: #ffffff00;
+    left: 10px;
+
+ 
+}
+
+.imgLogo {
+    width: 40px;
+    position: relative;
+    top: -25px;
+    left: 90%;
+
+}
+
+label.nome-site {
+    font-size: 22px;
+    margin: 8px;
+    color: #ff4040;
+    position: relative;
+    top: -40px ;
+    left: 89.5%;
+    font-family: "Bebas Neue", sans-serif;
+    border: solid #000 1px;
+    background-color: #000000; 
+    border-radius: 5px;
+
+}
+
+.imgChad {
+    width: 75%;
+    position: relative;
+    margin-top: 40%;
+    left: 12%;
+    border: black 3px solid;
+    border-radius: 10px;
+    
+}
+#footer {
+    height: 100px;
+    background-color: #ffffff00;
+    width: 100%;
+    position: relative;
+
+    
+}
+
+h1.titulo-texto {
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    position: relative;
+    color: #ff4040;
+    text-shadow: #000 5px -1px 2px;
+    font-family:"Bebas Neue", sans-serif; 
+  
+}
+
+p {
+    font-size: 29px;
+    color: #ffffff;
+    text-shadow:  #000000 5px 1px 5px;
+    text-align: justify;
+    position: relative;
+    left: 25px;
+}
+strong {
+    font-size: 16.5;
+    position: relative;
+    top: 80px;
+    left: 89%;
+    color: #ffffff;
+    text-shadow: #000000 3px -1px 3px;
+}
+
+button {
+    color: #ff4040;
+    background-color: #000000;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 9px;
+    position: relative;
+     
+}

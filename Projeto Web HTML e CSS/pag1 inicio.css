@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+    background-color: #ffffff;
+    font-family:"Bebas Neue", sans-serif;
+    background-image: url(imagens/Background\ img1.jpg);
+    background-size:cover ;
+    background-position: center;
+    min-height: 100vh;
+
+
+  
+}
+
+#header {
+    height: 150px;
+    width: 100%;
+    background-color: #ffffff00;
+
+}
+.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    position: relative;
+    top:-27px;
+    margin-left: 10px;
+ 
+
+    
+}
+.menu li a {
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 93.5%;
+    top: 25px;
+    text-decoration: none; 
+  
+    
+}
+
+
+#box1 {
+    height: 750px;
+    width: 100%;
+    background-color: #ffffff00;
+    
+}
+
+
+
+.imglogo {
+    width: 28px;
+    position: relative;
+    top: 5px;
+    
+
+}
+label {
+    font-size: 28px;
+    border: solid #000 1px;
+    border-radius: 5px;
+    color: #ffffff; 
+    background-color: #ff4040;
+    text-shadow: #000000 3px -1px 3px;
+    position: relative;
+    top: -3px;
+    left: 15px;
+}
+
+span.titulo-texto {
+    font-size: 120px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 25%;
+    text-shadow: #000000 3px -1px 3px;
+    color: #ffffff; 
+  
+
+}
+
+span.subtitulo-texto {
+    font-size: 40px;
+    text-shadow: #000000 3px -1px 3px;
+    color: #ffffff; 
+    position: relative;
+    top: 25%;
+    text-align: center;
+    display: block;
+
+
+}
+.imgicone-Site {
+    width: 105px;
+    position: relative;
+    left: 70%;
+    top: 15px;
+    border-radius: #000000 solid 5px;
+   
+ 
+}
+.icones-pesquisa {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    left: 47%;
+    top: -1px;
+   
+    
+}
+
+
+
+
+input {
+    position: relative;
+    background-size: auto;
+    left: 49%;
+    top: -6px;
+    width: 305px;
+    height: 40px;
+    background-color: #fffbfb6b;
+    color: #000000;
+
+}
+button.button-pesquisar {
+    color: #ff4040;
+    background-color: #000;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 9px;
+    position: relative;
+    left: 38px;
+    top: 12px;
+
+    
+   
+}
+button.button-clique-aqui {
+    color: #ff4040;
+    background-color: #000;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 9px;
+    position: relative;
+    top: -6px;
+}
+
+
+#footer {
+    width: 28%;
+    height: 250px;
+    background-color: #ffffff00;
+    position: relative;
+    top: -10px;
+    border: solid #ffffff00 1px;
+    color: #ffffff; 
+    background-color: #20080861;
+    text-shadow: #000000 3px -1px 3px;
+    border-radius: 10px;
+  
+    
+
+   
+ 
+}
+
+
+span.equip-bateria {
+   font-size: 22px;
+   color: #ffffff;
+   position: relative;
+   text-align: start;
+   display: block;
+   text-shadow: #000000 5px -2px 6px;
+   top: 70px;
+   margin: 20px;
+   left: 5px;
+   
+  
+   
+
+}
+
+span.redes-sociais {
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: #000000 5px -2px 6px;
+    position: relative;
+    left: 300px ;
+    top: -75px;
+    
+}
+
+
+
+/*@media screen (min-width: 375px) and (max-width: 812px) */
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    
+
+#header {
+    max-width: 150px;
+   
+    
+}
+
+#container {
+    max-width: 100% ;
+   
+  
+}
+
+.menu li a {
+    max-width: 100%;
+}
+
+#box1 {
+  max-width: 100% ;
+}
+
+
+.imglogo {
+    width: 22px;
+
+
+}
+
+span.titulo-texto {
+    font-size: 65px ;
+    position: relative;
+    top: 250px ;
+
+}
+
+span.subtitulo-texto {
+    font-size: 22px;
+    position: relative;
+    top: 250px;
+}
+
+.imgicone-Site {
+    width: 50px;
+    position:relative ;
+    left: 560px;
+    top: 160px;
+ 
+} 
+
+#footer {
+    width: 450px;
+    height: 200px ;
+
+}
+
+span.equip-bateria {
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+
+}
+
+span.redes-sociais {
+    font-size: 16px ;
+    position:relative ;
+    top: -10px;
+    left: 230px;
+}
+
+button.button-clique-aqui {
+    max-width:40% ;
+    font-size: 12px;
+  
+}
+
+button.button-pesquisar {
+    max-width: 40%;
+    font-size: 12px;
+    position:relative ;
+    left: 470px ;
+    top: 15px;
+
+
+}
+
+label{
+    font-size: 15px ;
+    position:relative ;
+    display: block;
+    left: 80px ;
+    top: -50px;
+    
+   
+    
+}
+
+input{
+    width: 200px ;
+    position:relative;
+    left: 400px;
+    top:-106px ;
+
+}
+
+.icones-pesquisa  {
+    width: 28px;
+    height: 28px;
+    position:relative ;
+    left: 570px;
+    top:-140px;
+}
+}
+
+/*@media screen (min-width: 768px) and (max-width: 1024px) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    
+
+#header {
+    max-width: 250px;
+   
+    
+}
+
+#container {
+    max-width: 100% ;
+   
+  
+}
+
+.menu li a {
+    max-width: 100%;
+}
+
+#box1 {
+  max-width: 100% ;
+}
+
+
+.imglogo {
+    width: 24px;
+
+
+}
+
+span.titulo-texto {
+    font-size: 75px ;
+    position: relative;
+    top: 250px ;
+
+}
+
+span.subtitulo-texto {
+    font-size: 26px;
+    position: relative;
+    top: 250px;
+}
+
+.imgicone-Site {
+    width: 65px;
+    max-width: 100%;
+    position:relative ;
+    left: 625px;
+    top: 150px;
+ 
+} 
+
+#footer {
+    width: 550px;
+    height: 200px ;
+
+}
+
+span.equip-bateria {
+    font-size: 17px;
+    position: relative;
+    top: 100px;
+
+}
+
+span.redes-sociais {
+    font-size: 17px ;
+    position:relative ;
+    top: -18px;
+    left: 260px;
+}
+
+button.button-clique-aqui {
+    max-width:100% ;
+    font-size: 15px;
+  
+}
+
+button.button-pesquisar {
+    max-width: 100%;
+    font-size: 13px;
+    position:relative ;
+    left: 425px ;
+
+
+}
+
+label{
+    font-size: 22px ;
+    position:relative ;
+    display:block;
+    left: 80px ;
+    top: -50px;
+    
+   
+    
+}
+
+input{
+    width: 250px ;
+    position:relative;
+    left: 400px;
+    top:-106px ;
+
+}
+
+.icones-pesquisa  {
+    width: 28px;
+    height: 28px;
+    position:relative ;
+    left: 620px;
+    top:-139px;
+}
+}
+
+
+
+
+/*@media screen (min-width: 1024px) and (max-width: 882px) */
+
+@media screen and (min-width: 1920px) and (max-width: 1080px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    
+
+#header {
+    max-width: 250px;
+   
+    
+}
+
+#container {
+    max-width: 100% ;
+   
+  
+}
+
+.menu li a {
+    max-width: 100%;
+}
+
+#box1 {
+  max-width: 100% ;
+}
+
+
+.imglogo {
+    width: 24px;
+
+
+}
+
+span.titulo-texto {
+    font-size: 75px ;
+    position: relative;
+    top: 250px ;
+
+}
+
+span.subtitulo-texto {
+    font-size: 26px;
+    position: relative;
+    top: 250px;
+}
+
+.imgicone-Site {
+    width: 65px;
+    max-width: 100%;
+    position:relative ;
+    left: 625px;
+    top: 150px;
+ 
+} 
+
+#footer {
+    width: 550px;
+    height: 200px ;
+
+}
+
+span.equip-bateria {
+    font-size: 17px;
+    position: relative;
+    top: 100px;
+
+}
+
+span.redes-sociais {
+    font-size: 17px ;
+    position:relative ;
+    top: -18px;
+    left: 260px;
+}
+
+button.button-clique-aqui {
+    max-width:100% ;
+    font-size: 15px;
+  
+}
+
+button.button-pesquisar {
+    max-width: 100%;
+    font-size: 13px;
+    position:relative ;
+    left: 425px ;
+
+
+}
+
+label{
+    font-size: 20px ;
+    position:relative ;
+    display:block;
+    left: 80px ;
+    top: -50px;
+    
+   
+    
+}
+
+input{
+    width: 250px ;
+    position:relative;
+    left: 400px;
+    top:-106px ;
+
+}
+
+.icones-pesquisa  {
+    width: 28px;
+    height: 28px;
+    position:relative ;
+    left: 620px;
+    top:-139px;
+}
+}
