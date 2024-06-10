@@ -127,6 +127,11 @@ button {
 
 }
 
+button:hover {
+    background-color: #000000c3;
+    color: #fff;
+}
+
 footer {
     height: 150px;
     width: 100%;
