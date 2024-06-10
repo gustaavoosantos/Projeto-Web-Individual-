@@ -128,7 +128,7 @@ strong {
 }
 
 button {
-    color: #ff4040;
+    color: #ff1010;
     background-color: #000000;
     font-size: 16px;
     font-family: "Bebas Neue", sans-serif;
@@ -136,4 +136,9 @@ button {
     position: relative;
      
 }
+button:hover {
+    background-color: #000000c3;
+    color: #fff;
+}
+
 
