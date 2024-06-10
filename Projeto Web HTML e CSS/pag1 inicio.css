@@ -155,6 +155,12 @@ button.button-clique-aqui {
     top: -6px;
 }
 
+button:hover {
+    background-color: #000000c3;
+    color: #fff;
+}
+
+
 
 #footer {
     width: 28%;
