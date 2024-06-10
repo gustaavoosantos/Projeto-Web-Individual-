@@ -32,3 +32,6 @@ O tema escolhido foi sobre os melhores bateristas do mundo. E com isso decidi tr
 
 **Página biografia 6**
 ![Pag 8](https://github.com/gustaavoosantos/Projeto-Web-Individual-/assets/163207767/84f72823-2b2e-455f-85ec-02e7a1fd129a)
+
+
+*Observação: Fiz algumas alterações na Paleta de cores, fontes e imagens para melhor adaptação do site.*
