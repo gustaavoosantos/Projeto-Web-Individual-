@@ -137,8 +137,7 @@ button {
      
 }
 button:hover {
-    background-color: #000000c3;
-    color: #fff;
+    background-color: #4c4c4c;
+    color: #fc9595;
 }
-
 
